@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="all_ctn">
+            <header>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__elem"><a class="nav__link" href="#">Новости</a></li>
+                        <li class="nav__elem"><a class="nav__link" href="#">Афиша</a></li>
+                        <li class="nav__elem"><a class="nav__link" href="#">Спектакли</a>
+                            <ul class="nav__list">
+                                <li class="nav__elem"><a class="nav__link" href="#">Музыкальные спектакли</a></li>
+                                <li class="nav__elem"><a class="nav__link" href="#">Балеты</a></li>
+                                <li class="nav__elem"><a class="nav__link" href="#">Концертные программы</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__elem"><a class="nav__link" href="#">Театр</a></li>
+                        <li class="nav__elem"><a class="nav__link" href="#">Галерея</a></li>
+                        <li class="nav__elem"><a class="nav__link" href="#">Возврат билетов</a></li>
+                        <li class="nav__elem"><a class="nav__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="banner">
+                    <div class="banner__elem">
+                        <img class="banner__img" src="./images/banner1.webp" alt="banner">
+                        <div class="banner__txt">
+                            <div class="banner__date">30 ноября</div>
+                            <div class="title title-white">“Силуэты”</div>
+                            <a href="#" class="btn">Купить билет</a>
+                        </div>
+                    </div>
+                    <!-- <div class="banner__elem">
+                        <img class="banner__img" src="./images/banner1.webp" alt="banner">
+                        <div class="banner__txt">
+                            <div class="banner__date">30 ноября</div>
+                            <div class="title title-white">“Силуэты”</div>
+                            <a href="#" class="btn">Купить билет</a>
+                        </div>
+                    </div>
+                    <div class="banner__elem">
+                        <img class="banner__img" src="./images/banner1.webp" alt="banner">
+                        <div class="banner__txt">
+                            <div class="banner__date">30 ноября</div>
+                            <div class="title title-white">“Силуэты”</div>
+                            <a href="#" class="btn">Купить билет</a>
+                        </div>
+                    </div> -->
+                </div>
+            </main>
+        </div>
+        <footer>
+        </footer>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/slick.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
